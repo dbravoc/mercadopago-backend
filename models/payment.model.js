@@ -13,9 +13,9 @@ const createPayment = async (title, quantity, unit_price) => {
       },
     ],
     back_urls: {
-      success: "https://www.reddit.com/",
-      failure: "https://www.youtube.com/",
-      pending: "https://github.com/jcorp11",
+      success: "https://www.bucont.com/success",
+      failure: "https://www.bucont.com/failure",
+      pending: "https://www.bucont.com/pending",
     },
     auto_return: "approved",
   };
